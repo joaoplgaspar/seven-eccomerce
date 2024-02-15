@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import 'styles/variaveis';
+
+@font-face {
+  font-family: 'MoonT';
+  src: url("assets/fonts/Moon Light.otf") format("opentype"),
+  url("assets/fonts/Moon Bold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: $cinza;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $azul-escuro; 
+  border-radius: 20px;
+}

@@ -1,0 +1,104 @@
+{
+    "estoque": [
+        {
+            "tipo": "Camisas",
+            "id": 10,
+            "nome": "Camisa Calvin Klein Jeans Manga Longa Preta",
+            "descricao": "Confeccionada com a mais alta qualidade e atenção aos detalhes, a Camisa Manga Longa Slim Calvin Klein é ideal para homens que valorizam o estilo refinado e a sofisticação em ocasiões formais. Nossa camisa oferece um caimento impecável e um toque suave na pele, garantindo máximo conforto durante todo o dia. Seu design clássico transmite uma imagem de profissionalismo e bom gosto. Possui tecido tricoline e elastano, modelagem slim e estampa silk.",
+            "preco": 439.90,
+            "precoPromocao": 341.90,
+            "imagemPrincipal": "Camisa/social/1.webp",
+            "imagens": ["Camisa/social/2.webp", "Camisa/social/3.webp", "Camisa/social/4.webp"],
+            "cores": [{"cor": "Preto", "hex": "#000"}],
+            "categorias": ["Novidades", "Masculina", "Ofertas"]
+        },
+        {
+            "tipo": "Camisas",
+            "id": 11,
+            "nome": "Camisa Oxford",
+            "descricao": "Camisa oxford com gola de camisa e manga comprida. Fecho de botões na frente. Bolso de patch no peito.",
+            "preco": 129.00,
+            "imagemPrincipal": "Camisa/oxford/1.jpg",
+            "imagens": ["Camisa/oxford/2.jpg", "Camisa/oxford/3.jpg"],
+            "cores": [{"cor": "Branco", "hex": "#fff"}],
+            "categorias": ["Novidades", "Feminino"]
+        },
+        {
+            "tipo": "Camisas",
+            "id": 12,
+            "nome": "Camiseta Masculina Academia Algodão Premium Slim Fit",
+            "descricao": "Camiseta Masculina Academia Algodão Premium Slim Fit",
+            "preco": 59.90,
+            "precoPromocao": 25.00,
+            "imagemPrincipal": "Camisa/fit/1.webp",
+            "imagens": ["Camisa/fit/2.webp", "Camisa/fit/3.webp", "Camisa/fit/4.webp"],
+            "cores": [{"cor": "Vermelho", "hex": "#ff0000"}],
+            "categorias": ["Novidades", "Masculino", "Feminino", "Esportivo", "Ofertas"]
+        },
+        {
+            "tipo": "Camisas",
+            "id": 13,
+            "nome": "Camisa de Linho - Algodão",
+            "descricao": "Camisa relaxed fit confeccionada em tecido com mescla de linho. Gola com lapela abotoada e manga comprida acabada em punho com botão. Bolso de patch no peito. Fecho de botões na frente.",
+            "preco": 279.00,
+            "imagemPrincipal": "Camisa/linho/1.jpg",
+            "imagens": ["Camisa/linho/2.jpg", "Camisa/linho/3.jpg"],
+            "cores": [{"cor": "Branco", "hex": "#fff"}],
+            "categorias": ["Novidades", "Masculino"]
+        },
+        {
+            "tipo": "Camisas",
+            "id": 14,
+            "nome": "Camisa Acetinada",
+            "descricao": "Camisa de gola com lapela e decote em V. Manga comprida com acabamento em punho. Fecho frontal com botões.",
+            "preco": 199.00,
+            "precoPromocao": 180.00,
+            "imagemPrincipal": "Camisa/acetinada/1.jpg",
+            "imagens": ["Camisa/acetinada/2.jpg", "Camisa/acetinada/3.jpg"],
+            "cores": [{"cor": "Branco", "hex": "#fff"}],
+            "categorias": ["Novidades", "Feminino", "Ofertas"]
+        }
+    ],
+    "mercadorias": [
+        {
+            "nome": "Novidades",
+            "categorias": ["camisas", "calcas", "bermudas", "blusas", "vestidos", "body", "bebe", "perfumes", "maquiagem", "bolsas", "joias", "relogios"]
+        },
+        {
+            "nome": "Feminino",
+            "categorias": ["camisas", "calcas", "bermudas", "blusas", "vestidos", "body"]
+        },
+        {
+            "nome": "Masculino",
+            "categorias": ["camisas", "calcas", "bermudas", "blusas"]
+        },
+        {
+            "nome": "Infantil",
+            "categorias": ["camisas", "calcas", "bermudas", "blusas", "vestidos", "bebe"]
+        },
+        {
+            "nome": "Calçados",
+            "categorias": ["tenis"]
+        },
+        {
+            "nome": "Acessórios",
+            "categorias": ["bolsas", "joias", "relogios"]
+        },
+        {
+            "nome": "Beleza",
+            "categorias": ["perfumes", "maquiagem"]
+        },
+        {
+            "nome": "Jeans",
+            "categorias": ["camisas", "calcas", "bermudas"]
+        },
+        {
+            "nome": "Esportivo",
+            "categorias": ["camisas", "calcas", "bermudas"]
+        },
+        {
+            "nome": "Ofertas",
+            "categorias": ["camisas", "calcas", "bermudas", "blusas", "vestidos", "body", "bebe", "perfumes", "maquiagem", "bolsas", "joias", "relogios"]
+        }
+    ]
+}

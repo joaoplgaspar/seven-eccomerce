@@ -1,0 +1,147 @@
+@import 'styles/variaveis';
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-block: 6rem;
+
+    &__images {
+        display: flex;
+        justify-self: center;
+        
+
+        &__miniatura {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-right: 2rem;
+
+            img {
+                width: 100px;
+                cursor: pointer;
+            }
+        }
+
+        &__imgDescricao {
+            
+            &__principal {
+                height: 700px;
+                outline: 2px solid $preto;
+                width: 500px;
+             
+                img {
+                    height: 100%;
+                }
+            }
+            
+            &__descricao {
+                width: 500px;
+                margin-top: 2rem;
+
+                h4 {
+                    font-family: $font-abel;
+                    font-size: $medium-size;
+                    color: $preto;
+                    font-weight: 400;
+                }
+
+                .line {
+                    width: 500px;
+                    height: 5px;
+                    background: #000;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-family: $font-abel;
+                    font-size: $normal-size;
+                }
+            }
+        }
+
+        .imagemSelecionada {
+            outline: 2px solid $preto;
+        }
+    }
+
+    .content {
+        h2 {
+            font-family: $font-abel;
+            font-size: $produto-size;
+            text-align: left;
+        }
+
+        &__avaliacao {
+            display: flex;
+            align-items: center;
+            color: #FCDE00;
+            gap: 5px;
+            margin-top: 0.6rem;
+
+            .nota {
+                font-size: $medium-size;
+                font-family: $font-moon;
+            }
+
+            .avaliacoes_qntd {
+                font-size: $small-size;
+                font-family: $font-abel;
+            }
+        }
+
+        &__preco {
+            display: flex;
+            flex-direction: column;
+            margin-block: 3rem;
+
+            .precos {
+                display: flex;
+                gap: 5px;
+            }
+
+            .precoAntigo, .preco {
+                font-size: 2.8rem;
+                font-family: $font-abel;
+                color: $preto;
+            }
+
+            .preco {
+                strong {
+                    font-family: $font-moon;
+                    font-weight: 400;
+                }
+            }
+
+            .precoAntigo {
+                text-decoration: line-through rgba($color: red, $alpha: 0.8);
+                font-family: $font-abel;
+
+                strong {
+                    font-weight: 400;
+                }
+            }
+
+            .parcela {
+                font-family: $font-abel;
+                font-size: $small-size;
+            }
+        }
+
+        .submit {
+            font-family: $font-moon;
+            color: $branco;
+            background: $azul;
+            border: none;
+            padding: 1rem 8rem;
+            font-size: $medium-size;
+            cursor: pointer;
+            transition: 500ms;
+            outline: 3px solid $azul;
+
+            &:hover {
+                outline: 3px solid $azul;
+                background: $azul-escuro;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import 'styles/variaveis';
+
+.link {
+    font-size: $medium-size;
+    font-family: $font-abel;
+    color: #000;
+    text-decoration: none;
+    padding-bottom: $medium-size;
+    transition: 200ms;
+
+    &:hover {
+        color: $azul;
+    }
+}
+
+.categorias {
+    display: none;
+    position: absolute;
+    background: rgba($color: $preto, $alpha: 0.8);
+    padding: 1rem;
+    margin-top: 2rem;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 1rem 0;
+
+        .opcoes {
+            text-decoration: none;
+            color: $branco;
+            font-size: $normal-size;
+            font-family: $font-moon;
+            border-bottom: 3px solid $branco;
+            transition: 300ms;
+
+            &:hover {
+                color: rgb(82, 154, 255);
+                border-bottom: 3px solid rgb(82, 154, 255);
+            }
+        }
+    }
+}
+
+.on {
+    display: block;
+}

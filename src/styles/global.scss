@@ -1,0 +1,9 @@
+@import './variaveis';
+
+h2 {
+    font-family: $font-moon;
+    font-size: $subtitle-size;
+    color: $preto;
+    font-weight: 400;
+    text-align: center;
+}

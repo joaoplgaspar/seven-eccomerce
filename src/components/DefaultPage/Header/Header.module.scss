@@ -1,0 +1,71 @@
+@import 'styles/variaveis';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba($color: #000000, $alpha: 0.10);
+    position: relative;
+    z-index: 2;
+
+    &__avisos {
+        background: $azul-escuro;
+        width: 100%;
+        color: $branco;
+        text-align: center;
+        font-family: $font-abel;
+        padding: 5px;
+        font-size: $normal-size;
+    }
+
+    &__header {
+        width: 100%;
+        padding-top: $medium-size;
+
+        &__head {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: $medium-size;
+
+            .title, h1 {
+                font-family: $font-moon;
+                font-size: $title-size;
+                font-weight: 400;
+                color: #000;
+                text-decoration: none;
+            }
+
+            .inputContainer {
+                position: absolute;
+                right: 12%;
+                border: 1px solid $preto;
+                width: 20%;
+                border-radius: 10px;
+
+                input {
+                    border: none;
+                    padding: 1rem;
+                    font-family: $font-abel;
+                    font-size: $normal-size;
+                    width: 100%;
+                    background: transparent;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }   
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: 0 auto;
+            padding-bottom: $medium-size;
+        }
+    }
+}

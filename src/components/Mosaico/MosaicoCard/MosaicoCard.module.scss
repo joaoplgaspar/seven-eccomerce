@@ -1,0 +1,32 @@
+@import 'styles/variaveis';
+
+.container {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+    width: fit-content;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        
+        img {
+            transition: 500ms;
+            cursor: pointer;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__link {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        background: $preto;
+        padding: 0.6rem 0;
+    }
+}

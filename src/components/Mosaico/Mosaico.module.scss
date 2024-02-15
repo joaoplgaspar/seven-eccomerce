@@ -1,0 +1,17 @@
+@import 'styles/variaveis';
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 65%;
+        gap: 40px;
+        margin-top: 3rem;
+    }
+}

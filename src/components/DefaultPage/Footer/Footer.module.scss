@@ -1,0 +1,26 @@
+@import 'styles/variaveis';
+
+.footer {
+    background: $cinza;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+    h3 {
+        font-size: $large-size;
+        color: $preto;
+        text-align: center;
+        font-family: $font-moon;
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: $normal-size;
+        font-family: $font-abel;
+        color: $preto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,56 @@
+@import 'styles/variaveis';
+
+.container {
+    width: 300px;
+    height: 380px;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border: 1px solid $preto;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: 500ms;
+
+            &:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .legenda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.6rem;
+
+        &__nome {
+            font-size: $normal-size;
+            font-family: $font-abel;
+            text-align: center;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .preco__container {
+            display: flex;
+            gap: 5px;
+
+            .preco {
+                font-size: $medium-size;
+                font-family: $font-abel;
+            }
+
+            .promocao {
+                text-decoration: line-through rgba($color: red, $alpha: 0.7);
+            }
+        }
+    }
+}

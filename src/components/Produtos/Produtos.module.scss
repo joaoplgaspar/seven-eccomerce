@@ -1,0 +1,12 @@
+.container {
+    margin-block: 10rem 15rem;
+
+    .produtos {
+        margin-top: 6rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 400px);
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 12rem 0rem;
+    }
+}
